@@ -13,8 +13,6 @@ app.get("/",(req,res)=>{
         let type="Weekend";
         let adv="Its time for some fun:)";
     };
-
-
     res.render("index.ejs",{
         day:type,
         advice: adv
